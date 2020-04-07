@@ -50,7 +50,7 @@ class FooterComponent extends React.Component<WithStyles<typeof styles>, object>
         return (
             <footer className={classes.root}>
                 <span className={classes.span}>Powered by</span>
-                <a className={classes.a} href="https://openware.com">openware.com</a>
+                <a className={classes.a} href="#">DecenturyGroup</a>
                 {startDate &&
                 <span className={classes.span}>
                         EXPIRE IN <b className={classes.b}>
